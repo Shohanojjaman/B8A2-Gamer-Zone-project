@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --primary-color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    --secondary-color: #4EC5F7;
+    --text-color: #534C64;
+    --primary-header-color: #0B0223;
+    --secondary-text-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+
+    /* Font Weight */
+    --fw-normal: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-extrabold: 800;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
