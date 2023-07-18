@@ -22,6 +22,8 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    color: #3C354F;
 }
 
 img,
@@ -43,4 +45,51 @@ li {
     max-width: 1200px;
     margin: 0 auto;
     height: 100%;
+}
+
+/* ==============
+Header Section
+================= */
+header {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 35px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 45px;
+    font-weight: var(--fw-bold);
+    line-height: 53px;
+}
+
+.logo h1 span {
+    background: var(--primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo h1::before {
+    content: url('../images/Frame.png');
+    margin-right: 20px;
+}
+
+.main-menu ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+li.follow {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+    gap: 24px;
 }
