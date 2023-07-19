@@ -242,3 +242,41 @@ Gamer Section
     margin: 24px 0;
     display: inline-block;
 }
+
+/* ============
+Video Section
+=============== */
+#video {
+    padding: 120px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    color: var(--primary-header-color);
+    font-size: 48px;
+    font-weight: var(--fw-bold);
+    margin-bottom: 16px;
+}
+
+.section-title h2 span {
+    background: var(--secondary-text-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.video-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
