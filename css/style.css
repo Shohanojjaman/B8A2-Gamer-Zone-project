@@ -6,11 +6,12 @@
 
 :root {
     /* Colors */
-    --primary-color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    --primary-color: linear-gradient(90deg, #ff42a5 0%, #FF42A5 100%);
     --secondary-color: #4EC5F7;
     --text-color: #534C64;
     --primary-header-color: #0B0223;
     --secondary-text-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --bg-color: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
     /* Font Weight */
     --fw-normal: 400;
@@ -23,7 +24,8 @@
 body {
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
-    color: #3C354F;
+    color: var(--text-color);
+    line-height: 30px;
 }
 
 img,
@@ -128,19 +130,22 @@ Banner Section
     justify-content: space-between;
 }
 
+.banner-content {
+    flex-basis: 50%;
+}
+
 .banner-content h1 {
     font-size: 48px;
     font-weight: var(--fw-semibold);
     text-transform: uppercase;
     line-height: 56px;
-    flex-basis: 50%;
 }
 
 .banner-content h1 span {
     font-size: 95px;
     font-weight: var(--fw-extrabold);
     line-height: 111px;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background: var(--secondary-text-color);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -184,4 +189,56 @@ Banner Section
 
 .banner-image {
     flex-basis: 50%;
+}
+
+/* ============
+Gamer Section
+=============== */
+#gamer {
+    background: var(--bg-color);
+    padding: 95px 0;
+}
+
+.gamer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.gamer-image {
+    flex-basis: 55%;
+}
+
+.gamer-content {
+    flex-basis: 45%;
+    text-align: right;
+}
+
+.gamer-content h2 {
+    background: var(--secondary-text-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: var(--fw-bold);
+    line-height: 56px;
+    margin-bottom: 24px;
+}
+
+.gamer-content p.purpose {
+    font-size: 24px;
+    font-weight: var(--fw-medium);
+    line-height: 45px;
+}
+
+.gamer-content p.purpose span {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: var(--fw-bold);
+}
+
+.gamer-content .btn {
+    margin: 24px 0;
+    display: inline-block;
 }
