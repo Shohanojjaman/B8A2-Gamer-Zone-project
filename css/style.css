@@ -280,3 +280,51 @@ Video Section
     flex-direction: column;
     gap: 24px;
 }
+
+/* =====================
+Play Instantly Section
+======================== */
+#play-instantly {
+    padding-bottom: 120px;
+}
+
+#play-instantly .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 100px;
+}
+
+.play-instantly-content {
+    text-align: right;
+    flex-basis: 30%;
+}
+
+.play-instantly-content h2 {
+    font-size: 48px;
+    font-weight: var(--fw-bold);
+    line-height: 60px;
+    color: var(--primary-header-color);
+    margin-bottom: 24px;
+}
+
+.play-instantly-content h2 span {
+    background: var(--secondary-text-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.play-instantly-image {
+    flex-basis: 50%;
+}
+
+img.big {
+    padding-left: 145px;
+}
+
+img.small {
+    position: relative;
+    bottom: 230px;
+}
