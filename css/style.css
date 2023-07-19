@@ -328,3 +328,50 @@ img.small {
     position: relative;
     bottom: 230px;
 }
+
+/* ==================
+Online Game Section
+===================== */
+#online-game {
+    padding-bottom: 120px;
+}
+
+#online-game .container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.online-game-content {
+    flex-basis: 40%;
+}
+
+.online-game-content h2 {
+    font-size: 48px;
+    font-weight: var(--fw-bold);
+    line-height: 60px;
+    color: var(--primary-header-color);
+    margin-bottom: 24px;
+}
+
+.online-game-content h2 span {
+    background: var(--secondary-text-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.online-game-image {
+    flex-basis: 60%;
+}
+
+.online-game-image img.big {
+    padding-right: 145px;
+    padding-left: 0;
+}
+
+.online-game-image img.small {
+    bottom: 200px;
+    left: 341px;
+}
