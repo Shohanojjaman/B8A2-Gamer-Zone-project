@@ -47,6 +47,24 @@ li {
     height: 100%;
 }
 
+.btn {
+    color: white;
+    font-size: 20px;
+    font-weight: var(--fw-semibold);
+    line-height: 23px;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    border-radius: 48px;
+}
+
+.primary-btn {
+    background: var(--primary-color);
+}
+
+.secondary-btn {
+    background-color: var(--secondary-color);
+}
+
 /* ==============
 Header Section
 ================= */
@@ -92,4 +110,78 @@ li.follow {
     background: rgba(11, 2, 35, 0.10);
     padding: 17px 24px;
     gap: 24px;
+}
+
+/* =============
+Banner Section
+================ */
+#banner {
+    background-image: url('../images/Group\ 14.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content h1 {
+    font-size: 48px;
+    font-weight: var(--fw-semibold);
+    text-transform: uppercase;
+    line-height: 56px;
+    flex-basis: 50%;
+}
+
+.banner-content h1 span {
+    font-size: 95px;
+    font-weight: var(--fw-extrabold);
+    line-height: 111px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.banner-content ul li::before {
+    vertical-align: top;
+    margin-right: 12px;
+}
+
+.banner-content ul li.play::before {
+    content: url('../images/icons/video-icon-1.svg');
+}
+
+.banner-content ul li.download::before {
+    content: url('../images/icons/download.svg');
+}
+
+.banner-content ul li.people::before {
+    content: url('../images/icons/people.svg');
+}
+
+.banner-content ul li {
+    font-size: 20px;
+    font-weight: var(--fw-medium);
+    line-height: 23px;
+    text-transform: lowercase;
+}
+
+.banner-content .bottons {
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.banner-image {
+    flex-basis: 50%;
 }
