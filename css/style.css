@@ -6,7 +6,7 @@
 
 :root {
     /* Colors */
-    --primary-color: linear-gradient(90deg, #ff42a5 0%, #FF42A5 100%);
+    --primary-color: #ff42a5;
     --secondary-color: #4EC5F7;
     --text-color: #534C64;
     --primary-header-color: #0B0223;
@@ -327,6 +327,7 @@ img.big {
 img.small {
     position: relative;
     bottom: 230px;
+    margin-bottom: -230px;
 }
 
 /* ==================
@@ -374,4 +375,58 @@ Online Game Section
 .online-game-image img.small {
     bottom: 200px;
     left: 341px;
+}
+
+/* ==============
+Career Section
+================= */
+#career {
+    background: url('../images/Group\ 65.png') no-repeat right var(--primary-color);
+    background-size: contain;
+    color: white;
+}
+
+.career {
+    display: flex;
+}
+
+.career-content,
+.career-image {
+    flex-basis: 50%;
+}
+
+.career-content {
+    padding: 120px 0;
+
+}
+
+.career-content h2 {
+    font-size: 48px;
+    font-weight: var(--fw-bold);
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.lists {
+    display: flex;
+    margin: 32px 0 40px;
+}
+
+.lists ul li {
+    font-size: 20px;
+    font-weight: var(--fw-semibold);
+    line-height: 40px;
+}
+
+.left-list {
+    text-align: right;
+}
+
+.career .btn {
+    background: white;
+    color: #FF42A5;
+}
+
+.career-image {
+    visibility: hidden;
 }
