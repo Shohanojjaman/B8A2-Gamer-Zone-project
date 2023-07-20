@@ -1,5 +1,18 @@
 /* Mobile Devices */
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
+    .container {
+        padding: 25px;
+    }
+
+    header .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main-menu ul {
+        flex-direction: column;
+    }
+}
 
 /* Tablet devices */
 @media screen and (min-width:577px) and (max-width:1200px) {}
