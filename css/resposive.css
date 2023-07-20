@@ -79,6 +79,25 @@
     .video-image>img {
         width: 100%;
     }
+
+    /* =====================
+    Play Instantly Section
+    ======================== */
+    #play-instantly .container {
+        flex-direction: column-reverse;
+    }
+
+    img.big {
+        padding-left: 70px;
+    }
+
+    img.small {
+        position: relative;
+        bottom: 120px;
+        margin-bottom: -120px;
+        left: -8px;
+        width: 50%;
+    }
 }
 
 /* Tablet devices */
