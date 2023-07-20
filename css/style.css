@@ -472,11 +472,6 @@ Categories Section
 }
 
 .categories {
-    /* display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: center;
-    gap: 34px; */
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -495,7 +490,7 @@ Categories Section
     transition: 0.3s;
     border: 2px solid transparent;
     color: var(--primary-header-color);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: var(--fw-semibold);
 }
 
