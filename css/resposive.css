@@ -84,7 +84,12 @@
     Play Instantly Section
     ======================== */
     #play-instantly .container {
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+
+    .play-instantly-content {
+        text-align: center;
+        flex-basis: 30%;
     }
 
     img.big {
@@ -97,6 +102,31 @@
         margin-bottom: -120px;
         left: -8px;
         width: 50%;
+    }
+
+    /* ===================
+    Online Game Section
+    ====================== */
+    #online-game .container {
+        flex-direction: column-reverse;
+    }
+
+    .online-game-image img.big {
+        padding-right: 70px;
+    }
+
+    .online-game-image img.small {
+        bottom: 100px;
+        left: 60%;
+    }
+
+    .online-game-image img.small {
+        bottom: 120px;
+        left: 50%;
+    }
+
+    .online-game-content {
+        text-align: center;
     }
 }
 
