@@ -65,12 +65,19 @@
         text-align: center;
     }
 
+    /* ============
+    Video Section
+    =============== */
     .section-title h2 {
         line-height: 1;
     }
 
     .video-container {
         grid-template-columns: 1fr;
+    }
+
+    .video-image>img {
+        width: 100%;
     }
 }
 
