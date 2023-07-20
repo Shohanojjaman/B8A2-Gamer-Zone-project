@@ -1,7 +1,7 @@
 /* Mobile Devices */
 @media screen and (max-width:576px) {
     .container {
-        padding: 25px;
+        padding: 0 25px;
     }
 
     header .container {
@@ -11,6 +11,34 @@
 
     .main-menu ul {
         flex-direction: column;
+    }
+
+    #banner {
+        background-image: none;
+    }
+
+    #banner .container {
+        padding: 0;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        background: url('../images/Group\ 14.png');
+        padding: 140px 25px;
+    }
+
+    .banner-content h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .banner-content h1 span {
+        font-size: 90px;
+        line-height: 100px;
     }
 }
 
