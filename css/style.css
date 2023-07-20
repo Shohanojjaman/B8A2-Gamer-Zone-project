@@ -462,3 +462,47 @@ Career Section
 .career-image {
     visibility: hidden;
 }
+
+/* =============
+Footer Section
+================ */
+footer {
+    background: var(--primary-header-color);
+    padding: 130px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 55px;
+}
+
+footer .logo h1 {
+    color: white
+}
+
+.footer-menu ul {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-menu ul li a {
+    color: white;
+    font-weight: var(--fw-semibold);
+}
+
+.social-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-secondary-menu ul li a {
+    font-weight: var(--fw-medium);
+    color: #ffffffbf;
+}
+
+p.copyright {
+    color: #ffffffbf;
+}
