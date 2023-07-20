@@ -153,6 +153,21 @@
     .lists ul li {
         font-size: 18px;
     }
+
+    /* =============
+    Footer Section
+    ================ */
+    .footer-menu ul {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social-links {
+        gap: 70px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 /* Tablet devices */
