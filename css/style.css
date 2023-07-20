@@ -463,6 +463,51 @@ Career Section
     visibility: hidden;
 }
 
+/* =================
+Categories Section
+==================== */
+#categories {
+    padding: 120px 0;
+    background: var(--bg-color);
+}
+
+.categories {
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    gap: 34px; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.item {
+    background-color: white;
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    border-radius: 50px;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    color: var(--primary-header-color);
+    font-size: 20px;
+    font-weight: var(--fw-semibold);
+}
+
+.item:hover {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color)
+}
+
+.item img {
+    width: 30px;
+}
+
 /* =============
 Footer Section
 ================ */
