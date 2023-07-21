@@ -82,6 +82,12 @@ header .container {
     align-items: center;
 }
 
+.logo a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .logo h1 {
     font-size: 45px;
     font-weight: var(--fw-bold);
@@ -95,10 +101,15 @@ header .container {
     -webkit-text-fill-color: transparent;
 }
 
-.logo h1::before {
+.logo img {
+    width: 55px;
+    height: 35px;
+}
+
+/* .logo h1::before {
     content: url('../images/Frame.png');
     margin-right: 20px;
-}
+} */
 
 .main-menu ul {
     display: flex;
@@ -110,7 +121,7 @@ li.follow {
     display: flex;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 17px 24px;
+    padding: 15px 24px;
     gap: 24px;
 }
 
@@ -536,6 +547,10 @@ footer .logo h1 {
 .social-links {
     display: flex;
     gap: 40px;
+}
+
+.social-links img {
+    width: 80%;
 }
 
 .footer-secondary-menu ul li a {

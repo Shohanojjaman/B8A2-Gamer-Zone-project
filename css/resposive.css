@@ -6,6 +6,10 @@
         padding: 0 25px;
     }
 
+    .btn {
+        padding: 20px 35px;
+    }
+
     /* =============
     Header Section
     ================ */
@@ -78,6 +82,10 @@
 
     .video-image>img {
         width: 100%;
+    }
+
+    .video-card {
+        text-align: center;
     }
 
     /* =====================
